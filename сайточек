@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GameZone - Сайтик</title>
+    <link rel="stylesheet" href="style23.css">
+</head>
+<body>
+    <header>
+        <div class="logo">GameZone</div>
+        <div class="tagline">Там где можно только играть епта</div>
+    </header>
+
+    <div class="container">
+        <div class="game-blocks">
+            <!-- блок 1 -->
+            <div class="game-block">
+                <img src="https://via.placeholder.com/600x400?text=Action+Games" alt="Action Games" class="game-image">
+                <div class="game-content">
+                    <h2 class="game-title">Action Games</h2>
+                    <p class="game-description">Experience heart-pounding excitement with our collection of the best action games. From first-person shooters to battle royales.</p>
+                    <a href="#" class="btn">Explore Now</a>
+                </div>
+            </div>
+
+            <!-- блок -->
+            <div class="game-block">
+                <img src="https://via.placeholder.com/600x400?text=RPG+Games" alt="RPG Games" class="game-image">
+                <div class="game-content">
+                    <h2 class="game-title">RPG Adventures</h2>
+                    <p class="game-description">Immerse yourself in rich storylines and character development with our selection of role-playing games from around the world.</p>
+                    <a href="#" class="btn">Explore Now</a>
+                </div>
+            </div>
+
+            <!-- блок 3 -->
+            <div class="game-block">
+                <img src="https://via.placeholder.com/600x400?text=Strategy+Games" alt="Strategy Games" class="game-image">
+                <div class="game-content">
+                    <h2 class="game-title">Strategy Games</h2>
+                    <p class="game-description">Test your tactical skills with our strategy game collection. From real-time to turn-based, we've got the best for your mind.</p>
+                    <a href="#" class="btn">Explore Now</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 GameZone. Играйте пацаны.</p>
+    </footer>
+</body>
+</html>
