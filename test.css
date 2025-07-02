@@ -1,0 +1,474 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+a {
+    text-decoration: none;
+}
+body {
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+    color: #fff;
+    font-size: 14px;
+}
+
+.site-background {
+    background: rgb(0,0,0);
+}
+
+.container {
+    max-width: 1440px;
+    margin: 0 auto;
+}
+
+.wide {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.site-header {
+    padding: 27px 147px;
+    max-width: 1160px;
+    max-height: 90px;
+    background: rgb(18,18, 18);
+}
+
+.header-nav {
+    float: right;
+    min-width: 700px;
+}
+
+.header-nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.header-nav a {
+    color: #fff;
+    font-weight: 400;
+    font-size: 15px;
+}
+
+.btn {
+    width: 152px;
+    height: 42px;
+    top: 232px;
+    left: 40px;
+    color: #000;
+    font-size: 16px;
+    background-color: #FFF;
+    padding: 11px 20px;
+    border-radius: 14px;
+}
+
+.hero-banner {
+    max-width: 1440px; 
+    min-height: 600px; 
+    margin: auto;
+    background-image: url("pic\ 1.png");
+    background-repeat: no-repeat;
+    background-position: center; 
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+
+.hero-content {
+    max-width: 600px;
+}
+
+.hero-content h2 {
+    margin-top: 20px;
+    font-weight: 400;
+    line-height: 20px;
+    font-size: 14px;
+    letter-spacing: 2px;
+    text-align: center;
+    text-transform: uppercase;
+    color: #c0c0c0;
+}
+
+.hero-content h1 {
+    margin-top: 1px;
+    font-weight: 400;
+    font-size: 54px;
+    line-height: 59.4px;
+    letter-spacing: 0%;
+    text-align: center;
+}
+
+.hero-content p {
+    margin-top: 18px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: center;
+    color: #c0c0c0;
+}
+
+.photo-stats {
+    margin-top: 10px;
+    font-size: 12px;
+    display: flex;
+    justify-content: right;
+    padding-right: 5%;
+    padding-bottom: 3%;
+}
+.photo-stats ul {
+    font-size: 12px;
+    display: flex;
+    justify-content:end;
+    margin-right: 80px;
+}
+.photo-stats img {
+    margin-left: 15px;
+    margin-right: 6px;
+    top: 3px;
+    right: 3px;
+}
+
+.services-section {
+    padding-top: 120px;
+    padding-bottom: 80px;
+    padding-left: auto;
+    padding-right: auto;
+    max-width: 1168px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.section-header {
+    text-align: center;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 120px;
+}
+
+.section-header h1 {
+    font-weight: 400;
+    font-size: 40px;
+    line-height: 42px;
+    letter-spacing: 0%;
+}
+
+.section-header p {
+    padding-top: 15px;
+    font-weight: 400;
+    font-size: 23px;
+    line-height: 30px;
+    letter-spacing: 0%;
+    color: #c0c0c0;
+}
+
+.services-grid {
+    max-width: 1168px;
+    min-height: 600px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.service-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    min-width: 576px;
+}
+
+.product-photo {
+    background-image: url(pic\ 2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 576px;
+    height: 600px;
+}
+
+.architecture-photo {
+    background-image: url(pic\ 7.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.drone-photo {
+    background-image: url(pic\ 8.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.wildlife-photo {
+    background-image: url(pic\ 9.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.service-description {
+    max-width: 513px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+.services-grid h2{
+    margin-bottom: 4px;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.services-grid h1{
+    margin-bottom: 10px;
+    max-width: 513px;
+    color: #c0c0c0;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+}
+
+.services-grid a {
+    color: #000;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 20px;
+    letter-spacing: 0.4px;
+    background-color: #FFF;
+    padding: 11px 20px;
+    border-radius: 14px;
+    margin-bottom: 20px;
+}
+.services-grid a img {
+    position: relative;
+    top: 10px;
+    left: -7px;
+}
+
+.second-row {
+    margin-top: 16px;
+}
+
+.featured-photo {
+    max-width: 1440px;  
+    min-height: 600px; 
+    margin: auto;
+    background-image: url("pic\ 10.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    display: grid;
+}
+
+.photo-caption {
+    max-width: 300px;
+    position: relative;
+    top: 80%;
+    left: 75%;
+}
+
+.photo-caption h1 {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.photo-caption p {
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0%;
+    color: #c0c0c0;
+}
+
+.featured-photo .photo-stats {
+    place-self: end;
+    font-size: 12px;
+    display: flex;
+    justify-content: right;
+    padding-right: 5%;
+    padding-bottom: 3%;
+}
+.featured-photo .photo-stats img {
+    padding-left: 15px;
+    padding-right: 5px;
+    position: relative;
+    left: 3px;
+}
+/* Блок 4 */
+.fourth-container {
+    display: flex;
+    width: 1440px;
+    height: 540px;
+    margin-top: 29px;
+    position: relative;
+}
+
+.fourth-content {
+    width: 50%;
+    padding: 60px;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fourth-subtitle {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #c0c0c0;
+    margin-bottom: 24px;
+}
+
+.fourth-title {
+    font-size: 28px;
+    font-weight: 400;
+    line-height: 32px;
+    margin-bottom: 16px;
+}
+
+.fourth-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 20px;
+    max-width: 514px;
+}
+
+.btn2 {
+    display: inline-flex;
+    align-items: center;
+    width: fit-content;
+    color: #000;
+    font-size: 16px;
+    background-color: #FFF;
+    padding: 11px 20px;
+    border-radius: 14px;
+    margin-top: 20px;
+}
+
+.btn2 img {
+    margin-right: 8px;
+}
+
+.fourth-image {
+    width: 50%;
+    height: 100%;
+    background-image: url(pic\ 11.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.fourth-image .photo-stats {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 12px;
+    display: flex;
+    gap: 16px;
+}
+
+.fourth-image .photo-stats img {
+    margin-right: 4px;
+}
+/* Блок 3 */
+.featured-photo {
+    max-width: 1440px;
+    height: 600px;
+    background-image: url("pic\ 10.png");
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    margin: 0 auto;
+}
+
+/* Блок 4 */
+.fourth-section {
+    display: flex;
+    width: 100%;
+    max-width: 1440px;
+    height: 540px;
+    margin: 0 auto;
+}
+
+.fourth-content {
+    width: 50%;
+    padding: 60px;
+    background: #000;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.gear-cage {
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #c0c0c0;
+    margin-bottom: 16px;
+}
+
+.fourth-content h2 {
+    font-size: 28px;
+    line-height: 32px;
+    margin-bottom: 16px;
+}
+
+.tools-text {
+    font-size: 14px;
+    line-height: 20px;
+    color: #c0c0c0;
+    margin-bottom: 24px;
+    max-width: 514px;
+}
+
+.btn2 {
+    display: inline-flex;
+    align-items: center;
+    width: fit-content;
+    color: #000;
+    background-color: #FFF;
+    padding: 11px 20px;
+    border-radius: 14px;
+    font-size: 16px;
+}
+
+.btn2 img {
+    margin-right: 8px;
+}
+
+.fourth-image {
+    width: 50%;
+    height: 100%;
+    background-image: url(pic\ 11.png);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.fourth-image .photo-stats {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+    font-size: 12px;
+    display: flex;
+    gap: 16px;
+    color: white;
+}
+
+.fourth-image .photo-stats img {
+    margin-right: 4px;
+    vertical-align: middle;
+}
